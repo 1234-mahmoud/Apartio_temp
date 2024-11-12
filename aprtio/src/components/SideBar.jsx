@@ -8,7 +8,7 @@ const {show,Hide} = useContext(AppContext)
     
 
   return (
-    <div className={show?'sidebar':''}>
+    <div className={show?'sidebar':'hide'}>
       <div className="close" onClick={Hide}>
         <img src={close} alt="" />
       </div>

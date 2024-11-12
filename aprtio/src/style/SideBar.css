@@ -1,33 +1,33 @@
-.sidebar {
+ .sidebar{
   width: 300px;
   height: 100%;
   background-color: #252525;
   position: fixed;
   top: 0;
-  right:0;
-  z-index: 2;
+  right: 0;
+  z-index: 20;
   overflow-y: auto;
+  overflow-x: hidden;
   scrollbar-width: thin;
   scrollbar-color: gray black;
-  transition:right 2s ease-in-out;
+  transition:width .5s ease-in-out;
 }
-.sidebar .close {
-    padding: 3px;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border:1px solid white;
-    position: absolute;
-    right: 0;
-    margin: 10px;
-    
+ .close {
+  padding: 3px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  position: absolute;
+  right: 0;
+  margin: 10px;
 }
-.sidebar .logo{
-    margin:40px 10px;
+ .logo {
+  margin: 40px 10px;
 }
-.sidebar .info {
+ .info {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -35,25 +35,43 @@
   padding: 20px;
 }
 
-.sidebar .info h1 , .sidebar .info .contact h2 {
+ .info h1,
+ .info .contact h2 {
   color: white;
   font-weight: normal;
   font-size: 1.5rem;
 }
-.sidebar .info p ,.sidebar .info .contact p{
+ .info p,
+ .info .contact p {
   color: rgba(175, 175, 175, 0.884);
   font-weight: normal;
   font-size: 1.1rem;
 }
 
-.sidebar .info .logo img {
+ .info .logo img {
   width: 180px;
   height: 60px;
 }
 
-.sidebar .info span{
-    color: white;
-    font-weight: 600;
-    font-size: .9rem;
-  }
+ .info span {
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.hide{
+  width:0;
+  height: 100%;
+  background-color: #252525;
+  position: fixed;
+  top: 0;
+  right:0;
+  z-index: 20;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: gray black;
+  overflow-x: hidden;
+  transition:width .4s ease-in-out;
+  opacity: .2;
+}
 

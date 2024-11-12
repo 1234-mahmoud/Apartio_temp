@@ -1,16 +1,17 @@
-import { useContext } from "react";
+import "./style/App.css";
 import Header from "./components/Header";
 import Slider from "./components/Slider";
 import SideBar from "./components/SideBar";
-import "./style/App.css";
-import { AppContext } from "./context/AppProvider";
+import Statistics from "./components/Statistics";
+import LivingSpace from "./components/LivingSpace";
 function App() {
-  const { show } = useContext(AppContext);
   return (
     <div className="App">
       <Header />
       <Slider />
-      {show && <SideBar />}
+      <SideBar />
+      <Statistics/>
+      <LivingSpace/>
     </div>
   );
 }

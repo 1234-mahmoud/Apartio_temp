@@ -7,6 +7,7 @@ function AppProvider({children}) {
   const Hide=()=>{
       setShow(!show)
   }
+  
   const values={
     show,Hide
   }
