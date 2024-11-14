@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/Statistics.css";
 import pic4 from "../imgs/pic4.jpg";
+import Button from "./Button";
 export default function Statistics() {
   return (
     <div className="content">
@@ -13,9 +14,7 @@ export default function Statistics() {
             nulla pariatur. Excepteur sint ocaecat cupidatat proid in culpa qui
             officia deserunt ipsum mollit anim laborum.
           </p>
-          <button>
-            <span>MAKE AN INQUIRY</span>
-          </button>
+        <Button/>
         </div>
       </div>
 

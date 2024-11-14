@@ -4,6 +4,7 @@ import pic2 from "../imgs/fur2.jpg";
 import pic3 from "../imgs/fur3.jpg";
 import pic4 from "../imgs/fur4.jpg";
 import "../style/furniture.css";
+import Button from "./Button";
 export default function Furniture() {
   return (
     <div className="furniture">
@@ -24,7 +25,7 @@ export default function Furniture() {
               Enimad minim veniam quis nostrud exercit ation ullamco laboris.
               Lorem ipsum dolor sit amet cons aetetur adipisicing.
             </p>
-            <button><span>MAKE AN INQUIRY</span></button>
+           <Button/>
           </div>
           </div>
         </div>
@@ -46,7 +47,7 @@ export default function Furniture() {
               Enimad minim veniam quis nostrud exercit ation ullamco laboris.
               Lorem ipsum dolor sit amet cons aetetur adipisicing.
             </p>
-            <button><span>MAKE AN INQUIRY</span></button>
+           <Button/>
         </div>
           </div>
         </div>
@@ -68,7 +69,7 @@ export default function Furniture() {
               Enimad minim veniam quis nostrud exercit ation ullamco laboris.
               Lorem ipsum dolor sit amet cons aetetur adipisicing.
             </p>
-            <button><span>MAKE AN INQUIRY</span></button>
+           <Button/>
         </div>
           </div>
         </div>
@@ -90,7 +91,7 @@ export default function Furniture() {
               Enimad minim veniam quis nostrud exercit ation ullamco laboris.
               Lorem ipsum dolor sit amet cons aetetur adipisicing.
             </p>
-            <button><span>MAKE AN INQUIRY</span></button>
+           <Button/>
         </div>
           </div>
         </div>

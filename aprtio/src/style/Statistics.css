@@ -47,53 +47,6 @@ align-items: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.img_info button{
-    background-color: black;
-  color: white;
-  border: 2px solid white;
-  width: 200px;
-  height: 50px;
-  font-size: 1rem;
-  font-weight: 600;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.img_info button span {
-    z-index: 2;
-    position: absolute;
-  }
-  .img_info button::before,
-  .img_info button::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    left: 0;
-    transition: 0.5s;
-    transition-timing-function: ease-in-out;
-  }
-  .img_info button::after {
-    background-color: rgb(229, 190, 114);
-  
-    top: 0;
-  }
-  
-  .img_info button::before {
-    background-color: rgb(229, 190, 114);
-  
-    bottom: 0;
-  }
-  
-  .img_info button:hover::before {
-    transform: translateY(50px);
-  }
-  .img_info button:hover::after {
-    transform: translateY(-50px);
-  }
 
   .content .stat{
     background-image: url('../imgs/cube.jpg');
