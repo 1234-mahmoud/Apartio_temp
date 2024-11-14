@@ -6,6 +6,7 @@ import Statistics from "./components/Statistics";
 import LivingSpace from "./components/LivingSpace";
 import Apartment from "./components/Apartment";
 import Furniture from "./components/Furniture";
+import Floor from "./components/Floor";
 function App() {
   return (
     <div className="App">
@@ -30,6 +31,7 @@ function App() {
           sit voluptatem laudantium totam rem
            aperiam eaqu ipsa quae ab illo inventore veritatis met quasis.`}
       />
+      <Floor/>
     </div>
   );
 }
